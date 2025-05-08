@@ -1,8 +1,9 @@
-export default function Home() {
+import Terminal from '@/components/Terminal/Terminal';
+
+export default function App() {
   return (
-    <div>
-      <main>
-      </main>
+    <div id="container">
+      <Terminal />
     </div>
   );
 }
