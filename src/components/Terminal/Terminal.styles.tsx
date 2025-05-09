@@ -2,9 +2,8 @@
 
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Form = styled.form`
     display: flex;
-    padding: 1rem;
 `;
 
 export const Input = styled.input`
@@ -13,15 +12,19 @@ export const Input = styled.input`
     box-sizing: border-box;
     color: white;
     flex: 1;
+    flex-grow: 1;
     width: 100%;
 
     &:hover,
     &:focus {
         outline: none;
         box-shadow: none;
-        border-color: inherit; /* or your desired color */
+        border-color: inherit;
     }
 `;
 
-export const Label = styled.label`
+export const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
 `;
