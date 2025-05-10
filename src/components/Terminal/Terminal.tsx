@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from "react";
-import { Form, Input, Wrapper } from './Terminal.styles';
+import { CmdNotFound, Form, Input, Wrapper } from './Terminal.styles';
 import TerminalInfo from "../TerminalInfo/TerminalInfo";
 
 export default function Terminal() {
@@ -11,12 +11,12 @@ export default function Terminal() {
     const [cmdHistory, setCmdHistory] = useState<string[]>([]);
     const [inputValue, setInputValue] = useState("");
 
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setInputValue(event.target.value);
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setInputValue(e.target.value);
     }
 
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
         setCmdHistory([...cmdHistory, inputValue]);
         setInputValue("");
     }
@@ -39,7 +39,7 @@ export default function Terminal() {
                 setCmdHistory([]);
             }
         };
-        window.addEventListener('keydown', handleKeyDown);
+        document.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, []);
 
@@ -53,6 +53,7 @@ export default function Terminal() {
                 <div key={`${cmd}-${index}`} className="terminal-command">
                     <TerminalInfo />
                     <span className="terminal-prompt">{cmd}</span>
+                    <CmdNotFound>command not found: {cmd}</CmdNotFound>
                 </div>
             ))}
 

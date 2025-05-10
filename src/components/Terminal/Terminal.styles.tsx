@@ -2,6 +2,10 @@
 
 import styled from 'styled-components';
 
+export const CmdNotFound = styled.div`
+    margin: 0.25rem 0;
+`;
+
 export const Form = styled.form`
     display: flex;
 `;
