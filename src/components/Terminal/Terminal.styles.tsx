@@ -13,6 +13,9 @@ export const Input = styled.input`
     color: white;
     flex: 1;
     flex-grow: 1;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0;
     width: 100%;
 
     &:hover,
@@ -25,6 +28,7 @@ export const Input = styled.input`
 
 export const Wrapper = styled.div`
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    overflow-y: auto;
     padding: 1rem;
 `;

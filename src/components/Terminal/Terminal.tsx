@@ -6,8 +6,9 @@ import TerminalInfo from "../TerminalInfo/TerminalInfo";
 
 export default function Terminal() {
     const inputRef = useRef<HTMLInputElement>(null);
+    const bottomRef = useRef<HTMLDivElement>(null);
 
-    const [cmdHistory, setCmdHistory] = useState<string[]>([""]);
+    const [cmdHistory, setCmdHistory] = useState<string[]>([]);
     const [inputValue, setInputValue] = useState("");
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -16,25 +17,47 @@ export default function Terminal() {
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        setCmdHistory([inputValue, ...cmdHistory]);
+        setCmdHistory([...cmdHistory, inputValue]);
         setInputValue("");
     }
 
     useEffect(() => {
-        const handleClick = () => {
-            inputRef.current?.focus();
-        };
-
-        document.addEventListener('click', handleClick);
+        const focusInput = () => inputRef.current?.focus();
+        document.addEventListener('click', focusInput);
+        const timer = setTimeout(focusInput, 1);
 
         return () => {
-            document.removeEventListener('click', handleClick);
+            document.removeEventListener('click', focusInput);
+            clearTimeout(timer);
         };
+    }, [inputValue]);
+
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'l') {
+                e.preventDefault();
+                setCmdHistory([]);
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
     }, []);
+
+    useEffect(() => {
+        bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }, [cmdHistory]);
 
     return (
         <Wrapper>
+            {cmdHistory.map((cmd, index) => (
+                <div key={`${cmd}-${index}`} className="terminal-command">
+                    <TerminalInfo />
+                    <span className="terminal-prompt">{cmd}</span>
+                </div>
+            ))}
+
             <Form onSubmit={handleSubmit}>
+                <label htmlFor="terminal-input" className="sr-only">Terminal input</label>
                 <TerminalInfo />
                 <Input
                     ref={inputRef}
@@ -47,12 +70,7 @@ export default function Terminal() {
                     onChange={handleChange} />
             </Form>
 
-            {cmdHistory.map((cmd, index) => (
-                <div key={index} className="terminal-command">
-                    <TerminalInfo />
-                    <span className="terminal-prompt">{cmd}</span>
-                </div>
-            ))}
+            <div ref={bottomRef} />
         </Wrapper>
     );
 }
