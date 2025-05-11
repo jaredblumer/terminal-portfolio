@@ -8,7 +8,7 @@ export const Label = styled.label`
 `;
 
 export const EmDash = styled.span`
-    color: #535e87;
+    color: #6e91b1;
 `;
 
 export const PromptSymbol = styled.span`
