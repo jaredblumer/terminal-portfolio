@@ -17,6 +17,7 @@ export const Input = styled.input`
     flex: 1;
     flex-grow: 1;
     font-size: 1rem;
+    line-height: 1.25rem;
     padding: 0;
     width: 100%;
 

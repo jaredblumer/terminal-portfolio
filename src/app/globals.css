@@ -7,6 +7,10 @@ html {
     font-size: 18px;
 }
 
+p {
+    margin: 0.75rem 0;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
