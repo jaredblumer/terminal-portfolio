@@ -3,7 +3,6 @@
 import styled from 'styled-components';
 
 export const CmdNotFound = styled.div`
-    margin: 0.25rem 0;
 `;
 
 export const Form = styled.form`
@@ -17,7 +16,6 @@ export const Input = styled.input`
     color: white;
     flex: 1;
     flex-grow: 1;
-    font-family: sans-serif;
     font-size: 1rem;
     padding: 0;
     width: 100%;
@@ -33,6 +31,6 @@ export const Input = styled.input`
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
+    margin: 0.5rem;
     overflow-y: auto;
-    padding: 1rem;
 `;
