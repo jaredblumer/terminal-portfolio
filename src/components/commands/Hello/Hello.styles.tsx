@@ -21,18 +21,18 @@ export const Link = styled.a`
 
 export const PreName = styled.pre`
     margin-top: -1rem;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
 
-    @media (max-width: 550px) {
+    @media (max-width: 700px) {
         display: none;
     }
 `;
 
 export const PreNameMobile = styled.pre`
     margin-top: -1rem;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
 
-    @media (min-width: 550px) {
+    @media (min-width: 700px) {
         display: none;
     }
 `;

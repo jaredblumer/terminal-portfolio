@@ -8,6 +8,7 @@ html {
 }
 
 p {
+    line-height: 1.25rem;
     margin: 0.75rem 0;
 }
 

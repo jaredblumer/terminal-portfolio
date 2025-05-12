@@ -33,5 +33,6 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
+    max-width: 800px;
     overflow-y: auto;
 `;
