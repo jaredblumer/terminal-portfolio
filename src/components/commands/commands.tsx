@@ -10,7 +10,7 @@ export const commands = [
     { cmd: "help", description: "list available commands", spaces: 14 },
     { cmd: "hello", description: "display welcome message", spaces: 13 },
     { cmd: "linkedin", description: "visit my LinkedIn", spaces: 10 },
-    // { cmd: "portfolio", description: "browse portfolio projects", spaces: 9 },
+    { cmd: "portfolio", description: "browse portfolio projects", spaces: 9 },
     // { cmd: "resume", description: "download my resume", spaces: 12 },
     // { cmd: "themes", description: "change terminal theme", spaces: 12 },
     // { cmd: "tools", description: "see my development tools", spaces: 13 },

@@ -7,6 +7,7 @@ import Hello from "../commands/Hello/Hello";
 import Help from "../commands/Help/Help";
 import GitHub from "../commands/GitHub/GitHub";
 import LinkedIn from "../commands/LinkedIn/LinkedIn";
+import Portfolio from "../commands/Portfolio/Portfolio";
 
 import { OutputContainer } from './Output.styles';
 
@@ -27,6 +28,7 @@ export default function Output({ cmd }: OutputProps) {
                 help: <Help />,
                 github: <GitHub />,
                 linkedin: <LinkedIn />,
+                portfolio: <Portfolio />,
             }[cmd]
         }
 
