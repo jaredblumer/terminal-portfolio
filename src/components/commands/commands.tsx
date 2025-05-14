@@ -5,7 +5,6 @@ export const commands = [
     { cmd: "clear", description: "clear the terminal", spaces: 13 },
     { cmd: "education", description: "view education history", spaces: 9 },
     { cmd: "email", description: "send me an email", spaces: 13 },
-    // { cmd: "experience", description: "view work experience", spaces: 8 },
     { cmd: "github", description: "check out my code", spaces: 12 },
     { cmd: "help", description: "list available commands", spaces: 14 },
     { cmd: "hello", description: "display welcome message", spaces: 13 },

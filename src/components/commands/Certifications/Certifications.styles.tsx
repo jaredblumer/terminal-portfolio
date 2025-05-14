@@ -9,5 +9,5 @@ export const CertificationsContainer = styled.div`
 `;
 
 export const Highlight = styled.span`
-    color: #6e91b1;
+    color:  #6F9CC4;
 `;

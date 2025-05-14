@@ -15,5 +15,5 @@ export const Label = styled.label`
 `;
 
 export const UserSpan = styled.span`
-    color: #6e91b1;
+    color:  #6F9CC4;
 `;

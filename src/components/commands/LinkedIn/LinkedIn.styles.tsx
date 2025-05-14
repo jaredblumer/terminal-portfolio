@@ -9,11 +9,11 @@ export const LinkedInContainer = styled.div`
 `;
 
 export const Highlight = styled.span`
-    color: #6e91b1;
+    color:  #6F9CC4;
 `;
 
 export const Link = styled.a`
-    color: #6e91b1;
+    color:  #6F9CC4;
 
     &:hover {
         text-decoration: none;

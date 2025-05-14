@@ -29,7 +29,7 @@ export default function Hello() {
             <p>
                 Welcome to my terminal portfolio! Type <Highlight>help</Highlight> to see a list of commands.
             </p>
-            <p>Curious how this was built? View the source code on <Link href="https://github.com/jaredblumer/terminal-portfolio">GitHub</Link>.</p>
+            <p>Curious how this was built? View the source code on <Link href="https://github.com/jaredblumer/terminal-portfolio" target="_blank">GitHub</Link>.</p>
         </HelloContainer>
     );
 };
