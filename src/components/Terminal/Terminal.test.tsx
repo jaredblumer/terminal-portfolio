@@ -49,6 +49,12 @@ describe('Terminal component', () => {
             expect(screen.getByText(/penn state university/i)).toBeInTheDocument();
         });
 
+        test('responds to "email"', async () => {
+            await typeCommand('email');
+            const link = screen.getByRole('link', { name: /jaredblumer/i });
+            expect(link).toHaveAttribute('href', 'mailto:jaredblumer@protonmail.com');
+        });
+
         test('responds to "github"', async () => {
             await typeCommand('github');
             const link = screen.getByRole('link', { name: /github\.com/i });
