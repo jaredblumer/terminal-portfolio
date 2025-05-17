@@ -17,6 +17,10 @@ const config: Config = {
         'setupTests.ts',
         'index.tsx',
     ],
+    moduleNameMapper: {
+        '^@/(.*)$': '<rootDir>/src/$1',
+        '\\.css$': 'identity-obj-proxy',
+    },
     testEnvironment: 'jsdom',
     transform: {
         '^.+\\.(ts|tsx)$': ['ts-jest', {
