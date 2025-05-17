@@ -1,5 +1,5 @@
 import React from 'react';
-import { fireEvent, render, screen, within } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import Terminal from './Terminal';
@@ -10,7 +10,10 @@ describe('Terminal component', () => {
         await userEvent.type(getInput(), `${command}{enter}`);
     };
 
-    beforeEach(() => render(<Terminal />));
+    beforeEach(() => {
+        window.HTMLElement.prototype.scrollIntoView = jest.fn();
+        render(<Terminal />);
+    });
 
     describe('initial render', () => {
         test('displays hello and welcome message', () => {
@@ -87,6 +90,16 @@ describe('Terminal component', () => {
             fireEvent.keyDown(document, { key: 'l', ctrlKey: true });
             expect(screen.queryByText(/hello/i)).not.toBeInTheDocument();
             expect(screen.queryByText(/welcome/i)).not.toBeInTheDocument();
+        });
+
+        test('displays "command not found" with invalid command', async () => {
+            await typeCommand('command');
+            expect(screen.queryByText(/comand not found:/i)).not.toBeInTheDocument();
+        });
+
+        test('scrolls to bottom on new command', async () => {
+            await typeCommand('help');
+            expect(window.HTMLElement.prototype.scrollIntoView).toHaveBeenCalled();
         });
     });
 });
