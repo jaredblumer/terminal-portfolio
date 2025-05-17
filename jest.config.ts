@@ -15,7 +15,7 @@ const config: Config = {
         'package-lock.json',
         'reportWebVitals.ts',
         'setupTests.ts',
-        'index.tsx',
+        'src/app/layout.tsx',
     ],
     moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1',
