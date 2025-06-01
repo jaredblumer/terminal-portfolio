@@ -1,6 +1,6 @@
 # Terminal Portfolio by Jared Blumer
 
-Welcome to my terminal-inspired portfolio! This interactive experience simulates a terminal interface and showcases my work as a full-stack engineer with a focus on React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.
+Welcome to my terminal-inspired portfolio! This interactive experience simulates a terminal interface and showcases my work as a full stack software engineer with a focus on React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.
 
 The application is deployed using **Docker**, **GitHub Actions**, and **AWS Fargate**.
 
