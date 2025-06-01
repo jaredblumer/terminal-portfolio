@@ -8,13 +8,16 @@ RUN yarn install --frozen-lockfile
 COPY . .
 RUN yarn build
 
+FROM builder AS test
+CMD ["yarn", "test"]
+
 FROM node:18-alpine AS runner
 
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV PORT=3000
-EXPOSE 3000
+ENV PORT=80
+EXPOSE 80
 
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next/standalone ./
