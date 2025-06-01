@@ -12,17 +12,17 @@ You can interact with the portfolio using these commands:
 
 | Command           | Description                         |
 |-------------------|-------------------------------------|
-| `about`           | Learn more about who I am           |
+| `about`           | Learn about me                      |
 | `certifications`  | View earned certifications          |
 | `clear`           | Clear the terminal screen           |
 | `education`       | Display my education history        |
-| `email`           | Open a prompt to send me an email   |
+| `email`           | Send me an email                    |
 | `github`          | View my GitHub repositories         |
 | `help`            | List all available commands         |
 | `hello`           | Show a welcome message              |
 | `linkedin`        | Visit my LinkedIn profile           |
-| `portfolio`       | Browse selected projects            |
-| `ctrl + l`        | Keyboard shortcut to clear terminal |
+| `portfolio`       | Browse portfolio projects           |
+| `ctrl + l`        | Clear the terminal                  |
 
 ## Tech Stack
 
