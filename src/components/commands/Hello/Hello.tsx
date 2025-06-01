@@ -27,7 +27,7 @@ export default function Hello() {
             </PreNameMobile>
 
             <p>
-                Welcome to my terminal portfolio! Type <Highlight>help</Highlight> to see a list of commands.
+                Welcome to my terminal portfolio! Type <Highlight>help</Highlight> and press Enter to see a list of commands.
             </p>
             <p>Curious how this was built? View the source code on <Link href="https://github.com/jaredblumer/terminal-portfolio" target="_blank">GitHub</Link>.</p>
         </HelloContainer>
