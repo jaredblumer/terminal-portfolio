@@ -6,8 +6,6 @@ The application is deployed using **Docker**, **GitHub Actions**, and **AWS Farg
 
 Visit the live site: [jaredblumer.com](https://jaredblumer.com/)
 
----
-
 ## Available Terminal Commands
 
 You can interact with the portfolio using these commands:
@@ -26,8 +24,6 @@ You can interact with the portfolio using these commands:
 | `portfolio`       | Browse selected projects            |
 | `ctrl + l`        | Keyboard shortcut to clear terminal |
 
----
-
 ## Features
 
 - Interactive terminal-style UI
@@ -35,8 +31,6 @@ You can interact with the portfolio using these commands:
 - Responsive design
 - Simulated CLI experience
 - Accessible keyboard shortcuts
-
----
 
 ## Tech Stack
 
@@ -47,8 +41,6 @@ You can interact with the portfolio using these commands:
 - **Docker**
 - **GitHub Actions** for CI/CD
 - **AWS Fargate** for deployment
-
----
 
 ## Running the Application Locally
 
