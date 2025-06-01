@@ -7,7 +7,7 @@ export default function Portfolio() {
         <PortfolioContainer>
             <p>
                 Project: <Highlight>Happeni</Highlight><br />
-                ----------------------------------------<br />
+                -------------------------------------<br />
                 Inspired by Cognitive Behavioral Therapy (CBT), Happeni empowers users to create happiness by choosing and anticipating upcoming pleasant events. With personalized reminders, we help you stay focused on the positive moments that brighten your life.<br />
             </p>
             <p>
@@ -23,7 +23,7 @@ export default function Portfolio() {
             <br />
             <p>
                 Project: <Highlight>Freemodoro</Highlight><br />
-                ----------------------------------------<br />
+                -------------------------------------<br />
                 Improve Your Focus and Boost Your Productivity With This Free and Open Source Pomodoro Timer<br />
             </p>
             <p>
