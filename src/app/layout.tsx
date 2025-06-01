@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Terminal Portfolio by Jared Blumer",
-  description: "A terminal portfolio built with Next.js, React, and TypeScript"
+  title: "Jared Blumer - Full Stack Software Engineer",
+  description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails."
 };
 
 export default function RootLayout({
