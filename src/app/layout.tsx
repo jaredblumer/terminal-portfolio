@@ -3,14 +3,30 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: "Jared Blumer - Full Stack Software Engineer",
-  description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
-  keywords:['Jared Blumer', 'Full Stack Software Engineer', 'Portfolio', 'React', 'TypeScript', 'JavaScript', 'Node.js', 'Python', 'Ruby on Rails'],
-  creator: 'Jared Blumer',
+  description: "Terminal-style portfolio of full stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+  keywords: [
+    "Jared Blumer",
+    "Full Stack Software Engineer",
+    "Portfolio",
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Python",
+    "Ruby on Rails"
+  ],
+  creator: "Jared Blumer",
   openGraph: {
     title: "Jared Blumer - Full Stack Software Engineer",
-    description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+    description: "Terminal-style portfolio of full stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
     url: "https://jaredblumer.com",
-    images: '/images/opengraph-image.png',
+    images: [
+      {
+        url: "https://jaredblumer.com/images/opengraph-image.png",
+        width: 1200,
+        height: 630,
+      }
+    ]
   },
   robots: {
     index: true,
