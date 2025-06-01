@@ -14,7 +14,7 @@ You can interact with the portfolio using these commands:
 |-------------------|-------------------------------------|
 | `about`           | Learn about me                      |
 | `certifications`  | View earned certifications          |
-| `clear`           | Clear the terminal screen           |
+| `clear`           | Clear the terminal                  |
 | `education`       | Display my education history        |
 | `email`           | Send me an email                    |
 | `github`          | View my GitHub repositories         |
