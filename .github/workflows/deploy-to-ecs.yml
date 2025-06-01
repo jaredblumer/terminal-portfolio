@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-2
-  AWS_ROLE_ARN: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/GitHub-Actions
+  AWS_ROLE_ARN: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/terminal-portfolio-iam
   ECR_REPOSITORY: terminal-portfolio
   ECS_SERVICE: terminal-portfolio-service
   ECS_CLUSTER: terminal-portfolio
@@ -14,6 +14,7 @@ env:
   CONTAINER_NAME: terminal-portfolio-latest
 
 permissions:
+  id-token: write
   contents: read
 
 jobs:
