@@ -24,14 +24,6 @@ You can interact with the portfolio using these commands:
 | `portfolio`       | Browse selected projects            |
 | `ctrl + l`        | Keyboard shortcut to clear terminal |
 
-## Features
-
-- Interactive terminal-style UI
-- Command-based navigation
-- Responsive design
-- Simulated CLI experience
-- Accessible keyboard shortcuts
-
 ## Tech Stack
 
 - **React** (via **Next.js**)
