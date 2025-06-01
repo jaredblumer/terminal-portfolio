@@ -3,7 +3,28 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: "Jared Blumer - Full Stack Software Engineer",
-  description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails."
+  description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+  keywords:['Jared Blumer', 'Full Stack Software Engineer', 'Portfolio', 'React', 'TypeScript', 'JavaScript', 'Node.js', 'Python', 'Ruby on Rails'],
+  creator: 'Jared Blumer',
+  openGraph: {
+    title: "Jared Blumer - Full Stack Software Engineer",
+    description: "Terminal-style portfolio of full-stack software engineer Jared Blumer, showcasing projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+    url: "https://jaredblumer.com",
+    images: '/images/opengraph-image.png',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
