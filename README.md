@@ -2,9 +2,9 @@
 
 Welcome to my terminal-inspired portfolio! This interactive experience simulates a terminal interface and showcases my work as a full stack software engineer with a focus on React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.
 
-The application is deployed using **Docker**, **GitHub Actions**, and **AWS Fargate**.
+The application is deployed using **AWS S3 static hosting**, distributed via **CloudFront**, and built automatically through **GitHub Actions**.
 
-Visit the live site: [jaredblumer.com](https://jaredblumer.com/)
+Visit the live site: [https://jaredblumer.com](https://jaredblumer.com/)
 
 ## Available Terminal Commands
 
@@ -30,9 +30,8 @@ You can interact with the portfolio using these commands:
 - **TypeScript**
 - **Styled Components**
 - **Jest** for testing
-- **Docker**
 - **GitHub Actions** for CI/CD
-- **AWS Fargate** for deployment
+- **AWS S3** with **CloudFront** for static hosting
 
 ## Running the Application Locally
 
