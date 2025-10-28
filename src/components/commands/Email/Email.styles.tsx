@@ -1,21 +1,21 @@
-'use client';
+"use client";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const EmailContainer = styled.div`
-    p {
-        line-height: 1.25rem;
-    }
+  p {
+    line-height: 1.25rem;
+  }
 `;
 
 export const Highlight = styled.span`
-    color:  #6F9CC4;
+  color: #6f9cc4;
 `;
 
 export const Link = styled.a`
-    color:  #6F9CC4;
+  color: #6f9cc4;
 
-    &:hover {
-        text-decoration: none;
-    }
+  &:hover {
+    text-decoration: none;
+  }
 `;

@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const EducationContainer = styled.div`
-    p {
-        line-height: 1.25rem;
-    }
+  p {
+    line-height: 1.25rem;
+  }
 `;
 
 export const Highlight = styled.span`
-    color:  #6F9CC4;
+  color: #6f9cc4;
 `;

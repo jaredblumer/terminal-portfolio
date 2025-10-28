@@ -1,32 +1,37 @@
 import type { Metadata } from "next";
-import './globals.css';
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jared Blumer - Full Stack Software Engineer",
-  description: "A terminal-inspired portfolio showcasing full-stack projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+  description:
+    "A terminal-inspired portfolio showcasing full stack development projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
   keywords: [
     "Jared Blumer",
-    "Full Stack Software Engineer",
+    "Software Engineer",
+    "Full Stack Developer",
+    "Full Stack Development",
+    "Web Development",
     "Portfolio",
     "React",
     "TypeScript",
     "JavaScript",
     "Node.js",
     "Python",
-    "Ruby on Rails"
+    "Ruby on Rails",
   ],
   creator: "Jared Blumer",
   openGraph: {
     title: "Jared Blumer - Full Stack Software Engineer",
-    description: "A terminal-inspired portfolio showcasing full-stack projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
+    description:
+      "A terminal-inspired portfolio showcasing full-stack projects built with React, TypeScript, JavaScript, Node.js, Python, and Ruby on Rails.",
     url: "https://jaredblumer.com",
     images: [
       {
         url: "https://jaredblumer.com/images/opengraph-image.png",
         width: 2400,
         height: 1260,
-      }
-    ]
+      },
+    ],
   },
   robots: {
     index: true,
@@ -36,9 +41,9 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
       noimageindex: false,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
 };

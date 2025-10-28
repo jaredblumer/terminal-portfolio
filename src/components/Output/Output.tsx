@@ -9,28 +9,28 @@ import GitHub from "../commands/GitHub/GitHub";
 import LinkedIn from "../commands/LinkedIn/LinkedIn";
 import Portfolio from "../commands/Portfolio/Portfolio";
 
-import { OutputContainer } from './Output.styles';
-
+import { OutputContainer } from "./Output.styles";
 
 type OutputProps = {
-    cmd: string;
+  cmd: string;
 };
 
 export default function Output({ cmd }: OutputProps) {
-    return <OutputContainer>
+  return (
+    <OutputContainer>
+      {
         {
-            {
-                about: <About />,
-                certifications: <Certifications />,
-                education: <Education />,
-                email: <Email />,
-                hello: <Hello />,
-                help: <Help />,
-                github: <GitHub />,
-                linkedin: <LinkedIn />,
-                portfolio: <Portfolio />,
-            }[cmd]
-        }
-
-    </OutputContainer>;
+          about: <About />,
+          certifications: <Certifications />,
+          education: <Education />,
+          email: <Email />,
+          hello: <Hello />,
+          help: <Help />,
+          github: <GitHub />,
+          linkedin: <LinkedIn />,
+          portfolio: <Portfolio />,
+        }[cmd]
+      }
+    </OutputContainer>
+  );
 }
