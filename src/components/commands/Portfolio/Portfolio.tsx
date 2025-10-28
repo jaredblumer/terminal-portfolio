@@ -6,6 +6,37 @@ export default function Portfolio() {
   return (
     <PortfolioContainer>
       <p>
+        Project: <Highlight>FrightByte</Highlight>
+        <br />
+        -------------------------------------
+        <br />
+        Discover the highest-rated horror movies and series currently streaming. Rated by critics
+        and audiences across all major platforms.
+        <br />
+      </p>
+      <p>
+        Tech Stack:
+        <br />
+        - React
+        <br />
+        - TypeScript
+        <br />
+        - Node.js
+        <br />- PostgreSQL
+      </p>
+      <p>
+        Links:
+        <br />- App:{" "}
+        <Link href="https://frightbyte.net/" target="_blank">
+          https://frightbyte.net/
+        </Link>
+        <br />- Source:{" "}
+        <Link href="https://github.com/jaredblumer/frightbyte" target="_blank">
+          https://github.com/jaredblumer/frightbyte
+        </Link>
+      </p>
+      <br />
+      <p>
         Project: <Highlight>Happeni</Highlight>
         <br />
         -------------------------------------
@@ -20,6 +51,7 @@ export default function Portfolio() {
         <br />
         - Ruby on Rails
         <br />- Tailwind CSS
+        <br />- PostgreSQL
       </p>
       <p>
         Links:

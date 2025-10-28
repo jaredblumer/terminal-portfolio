@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AboutContainer, Highlight } from "./About.styles";
+import { AboutContainer, Highlight, Link } from "./About.styles";
 
 export default function About() {
   return (
@@ -9,19 +9,26 @@ export default function About() {
         Hello! My name is <Highlight>Jared Blumer</Highlight> (he/him).
       </p>
       <p>
-        I’m a full stack software engineer with over five years of experience building scalable web
-        apps and turning complex data into actionable insights. I specialize in{" "}
-        <Highlight>React</Highlight>, <Highlight>TypeScript</Highlight>,{" "}
-        <Highlight>Node.js</Highlight>, <Highlight>Ruby on Rails</Highlight>, and{" "}
-        <Highlight>Python</Highlight>.
+        I’m a results-driven Software Engineer with 5+ years of experience building full stack web
+        applications that serve millions of users. I focus on crafting high-performance, reliable
+        systems and modernizing development workflows using <Highlight>TypeScript</Highlight>,{" "}
+        <Highlight>React</Highlight>, <Highlight>Node.js</Highlight>, <Highlight>Python</Highlight>,{" "}
+        <Highlight>Ruby on Rails</Highlight>, <Highlight>AWS</Highlight>,{" "}
+        <Highlight>Docker</Highlight>, and <Highlight>Terraform</Highlight>.
       </p>
       <p>
-        As a data analyst, I utilized <Highlight>Python</Highlight>, <Highlight>NumPy</Highlight>,{" "}
-        <Highlight>Pandas</Highlight>, <Highlight>Matplotlib</Highlight>, and{" "}
-        <Highlight>Tableau</Highlight> to analyze, visualize, and report on fundraising metrics and
-        donor demographics for a database of 96,000 constituents. During my tenure, our small team
-        of seven helped raise $41.2 million in donations through data-informed strategy and
-        automation.
+        Beyond professional work, I’m passionate about community and collaboration. As the founder
+        of{" "}
+        <Link href="https://www.meetup.com/code-and-coffee-pgh/" target="_blank">
+          Code & Coffee Pittsburgh
+        </Link>
+        , I organize monthly meetups that bring together over 1,800 developers to learn, share
+        skills, and support one another in an inclusive environment.
+      </p>
+      <p>
+        I’m driven by the challenge of designing software that’s fast, maintainable, and genuinely
+        useful—whether improving internal tools, enhancing user experiences, or architecting
+        dependable infrastructure for large-scale systems.
       </p>
       <p>
         I&apos;m a lifelong learner, driven by the principles of Deep Work and the Growth Mindset.

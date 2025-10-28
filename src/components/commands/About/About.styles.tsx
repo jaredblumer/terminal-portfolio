@@ -11,3 +11,11 @@ export const AboutContainer = styled.div`
 export const Highlight = styled.span`
   color: #6f9cc4;
 `;
+
+export const Link = styled.a`
+  color: #6f9cc4;
+
+  &:hover {
+    text-decoration: none;
+  }
+`;
