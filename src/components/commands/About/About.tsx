@@ -36,6 +36,14 @@ export default function About() {
         smart or talented.&quot; This belief fuels my dedication to continuous improvement and
         personal growth.
       </p>
+      <p>
+        For a detailed overview of my professional background, technical skills, and open-source
+        experience, you can{" "}
+        <Link href="/resume/Jared_Blumer_Resume.pdf" target="_blank">
+          view my resume
+        </Link>
+        .
+      </p>
     </AboutContainer>
   );
 }
