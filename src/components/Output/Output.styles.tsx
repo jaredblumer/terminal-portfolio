@@ -1,7 +1,5 @@
-'use client';
+"use client";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const OutputContainer = styled.div`
-    
-`;
+export const OutputContainer = styled.div``;

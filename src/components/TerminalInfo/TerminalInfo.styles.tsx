@@ -1,19 +1,19 @@
-'use client';
+"use client";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const DefaultSpan = styled.span`
-    color: #fff;
+  color: #fff;
 `;
 
 export const HostSpan = styled.span`
-    color: #99DF4D;
+  color: #99df4d;
 `;
 
 export const Label = styled.label`
-    line-height: 1.25rem;
+  line-height: 1.25rem;
 `;
 
 export const UserSpan = styled.span`
-    color:  #6F9CC4;
+  color: #6f9cc4;
 `;

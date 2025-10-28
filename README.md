@@ -10,19 +10,19 @@ Visit the live site: [https://jaredblumer.com](https://jaredblumer.com/)
 
 You can interact with the portfolio using these commands:
 
-| Command           | Description                         |
-|-------------------|-------------------------------------|
-| `about`           | Learn about me                      |
-| `certifications`  | View earned certifications          |
-| `clear`           | Clear the terminal                  |
-| `education`       | Display my education history        |
-| `email`           | Send me an email                    |
-| `github`          | View my GitHub repositories         |
-| `help`            | List all available commands         |
-| `hello`           | Show a welcome message              |
-| `linkedin`        | Visit my LinkedIn profile           |
-| `portfolio`       | Browse portfolio projects           |
-| `ctrl + l`        | Clear the terminal                  |
+| Command          | Description                  |
+| ---------------- | ---------------------------- |
+| `about`          | Learn about me               |
+| `certifications` | View earned certifications   |
+| `clear`          | Clear the terminal           |
+| `education`      | Display my education history |
+| `email`          | Send me an email             |
+| `github`         | View my GitHub repositories  |
+| `help`           | List all available commands  |
+| `hello`          | Show a welcome message       |
+| `linkedin`       | Visit my LinkedIn profile    |
+| `portfolio`      | Browse portfolio projects    |
+| `ctrl + l`       | Clear the terminal           |
 
 ## Tech Stack
 
