@@ -26,15 +26,9 @@ export default function About() {
         skills, and support one another in an inclusive environment.
       </p>
       <p>
-        I’m driven by the challenge of designing software that’s fast, maintainable, and genuinely
-        useful—whether improving internal tools, enhancing user experiences, or architecting
-        dependable infrastructure for large-scale systems.
-      </p>
-      <p>
-        I&apos;m a lifelong learner, driven by the principles of Deep Work and the Growth Mindset.
-        Inspired by Stanford psychologist Carol Dweck, I believe that &quot;Effort is what makes you
-        smart or talented.&quot; This belief fuels my dedication to continuous improvement and
-        personal growth.
+        Whether improving internal tools, enhancing user experiences, or architecting dependable
+        infrastructure for large-scale systems, I work to design software that’s fast, maintainable,
+        and a joy to use.
       </p>
       <p>
         For a detailed overview of my professional background, technical skills, and open-source
