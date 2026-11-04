@@ -30,10 +30,6 @@ export default function Portfolio() {
         <Link href="https://frightbyte.net/" target="_blank">
           https://frightbyte.net/
         </Link>
-        <br />- Source:{" "}
-        <Link href="https://github.com/jaredblumer/frightbyte" target="_blank">
-          https://github.com/jaredblumer/frightbyte
-        </Link>
       </p>
       <br />
       <p>
@@ -55,10 +51,6 @@ export default function Portfolio() {
       </p>
       <p>
         Links:
-        <br />- App:{" "}
-        <Link href="https://www.happeni.com/" target="_blank">
-          https://www.happeni.com/
-        </Link>
         <br />- Source:{" "}
         <Link href="https://github.com/jaredblumer/happeni" target="_blank">
           https://github.com/jaredblumer/happeni
@@ -90,8 +82,8 @@ export default function Portfolio() {
       <p>
         Links:
         <br />- App:{" "}
-        <Link href="https://freemodoro-cbc150480d4a.herokuapp.com/" target="_blank">
-          https://freemodoro-cbc150480d4a.herokuapp.com/
+        <Link href="https://jaredblumer.github.io/freemodoro/" target="_blank">
+          https://jaredblumer.github.io/freemodoro/
         </Link>
         <br />- Source:{" "}
         <Link href="https://github.com/jaredblumer/freemodoro" target="_blank">
